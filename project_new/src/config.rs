@@ -1,0 +1,1 @@
+pub(crate) const DATABASE: &str = "tutorialhehe";

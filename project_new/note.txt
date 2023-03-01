@@ -1,0 +1,7 @@
+1. ketika sudah menulis semua depedency, kita tunggu sampai rust analyzer selesai
+
+2. copy isi docs actix bagian dari getting started
+
+3. buat folder sesuai kebutuhan
+
+4. mod semua folder di main.rs

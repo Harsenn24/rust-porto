@@ -1,0 +1,31 @@
+[package]
+name = "project_new"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# essential 
+actix-web = "*" 
+bson = "*" 
+json = "*" 
+serde = { version = "*", features = ["derive"] }
+serde_json = "*" 
+futures = "*" 
+futures-util = "*" 
+smcore = { path = "../smcore"}
+
+#database 
+mongodb = { version = "*", default-features = false, features = ["sync"] } 
+dotenv = "*"
+redis = "*" 
+
+#hash 
+jwt  = "*" 
+hmac = "*" 
+sha2 = "*"
+tracing = "*"
+chrono = {version="0.4.19", features = ["serde"]}
+actix-multipart = "0.5.0"
+
